@@ -1,9 +1,7 @@
 import React, { Fragment, useEffect, useState } from "react";
 import { BrowserRouter, Route, Routes, Navigate, useNavigate } from "react-router-dom";
 import "./App.css";
-import LandingPage from "./components/LandingPage/Landingpage";
 import Loader from "./components/Loader/Loader";
-import Login from "./components/Login/login";
 import Home from "./components/Dashboard/Home/Home";
 import TableGrid from "./components/TableView/TableGrid";
 import TableOrder from "./components/OrderList/TableOrder";
@@ -16,9 +14,13 @@ import Main from "./components/Dashboard/Main/Main";
 import Register from "./components/Register/register";
 import AllOrderDetails from "./components/OrderList/allorderdetails";
 
-const AppContent = () => {
+const PrivateRoute = ({ element: Component }) => {
+  const token = sessionStorage.getItem('token');
+  return token ? <Component /> : <Navigate to="/home" />;
+};
+
+const AppRoutes = () => {
   const [loading, setLoading] = useState(false);
-  const [change, setChange] = useState(true);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -35,8 +37,6 @@ const AppContent = () => {
         <Loader />
       ) : (
         <Routes>
-          <Route path="/" exact element={<LandingPage change={change} setChange={setChange} />} />
-          <Route path="/login" exact element={<Login change={change} setChange={setChange} />} />
           <Route path="/home" element={<PrivateRoute element={Home} />}>
             <Route path="" element={<Main />} />
           </Route>
@@ -47,16 +47,12 @@ const AppContent = () => {
           </Route>
           <Route path="/" element={<PrivateRoute element={Home} />}>
             <Route path="Table" element={<TableGrid />} />
-          </Route>
-          <Route path="/" element={<PrivateRoute element={Home} />}>
             <Route path="MenuUpdate" element={<MenuDetail />} />
+            <Route path="Registration" element={<Register />} />
           </Route>
           <Route path="/Orders" element={<PrivateRoute element={Home} />}>
-            <Route path="OrderHistory" element={<AllOrderDetails/>} />
+            <Route path="OrderHistory" element={<AllOrderDetails />} />
             <Route path="OrderStatus" element={<OrdersDataContainer />} />
-          </Route>
-          <Route path="/" element={<PrivateRoute element={Home} />}>
-            <Route path="Registration" element={<Register />} />
           </Route>
         </Routes>
       )}
@@ -66,7 +62,7 @@ const AppContent = () => {
 
 const App = () => (
   <BrowserRouter basename="/">
-    <AppContent />
+    <AppRoutes />
   </BrowserRouter>
 );
 
