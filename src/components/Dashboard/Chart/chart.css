@@ -1,0 +1,11 @@
+.charts{
+    width: 100%;
+    height: 400px;
+    
+}
+.gridcolor{
+    stroke: rgb(236, 236, 236);
+}
+.yaxis{
+    font-size: 12px;
+}

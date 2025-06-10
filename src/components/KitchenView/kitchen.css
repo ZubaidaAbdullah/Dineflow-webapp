@@ -1,0 +1,186 @@
+
+
+.kitchenborder {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+ gap: 3pc;
+  border-radius: 24.81px 0px 0px 0px;
+ justify-content: center;
+  background: #f1f1f1;
+  box-shadow: 0px 3.1016042232513428px 15.508021354675293px 0px #0000001a;
+}
+
+/* 
+.rows{
+    display: flex;
+    background: #F1F1F1;
+
+} */
+
+.orders {
+  height: 290px;
+  
+  gap: 0px;
+  border-radius: 12px;
+  /* opacity: 0px; */
+  background-color: white;
+}
+
+.orderhead {
+  width: 285px;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  border-radius: 12px 12px 0px 0px;
+  /* opacity: 0px; */
+  /* background: #f72b50; */
+  color: #fcfcfc;
+  padding: 0px 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 103px;
+  justify-content: center;
+}
+
+.set1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.status{
+
+padding: 6px 14px ;
+  background: #FFFFFF;
+color: black;
+border-radius: 12px;
+/* opacity: 0px; */
+font-size: 12px;
+
+}
+
+.items{
+  font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 21.78px;
+text-align: left;
+padding-left: 20px;
+padding-top: 10px;
+gap: 20;
+
+}
+
+.orderitemsK{
+  display: flex;
+  flex-direction: column;
+  
+  padding-top: 5px;
+  padding-left: 0px;
+  height: 140px;
+
+}
+
+.arrow-container{   
+  position: relative;
+  /* top: 250px;
+  right: 53% */
+  float: right;
+    margin-right: 10px;
+
+}
+
+p{
+  margin-bottom: 0 !important;
+}
+
+
+
+.orderD{
+  font-family: Poppins;
+font-size: 34.4px;
+font-weight: 600;
+line-height: 51.6px;
+text-align: left;
+
+}
+
+.ordernote{
+  width: 100%;
+  height: 180px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center !important;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+.orderDetail{
+height: 100%;
+padding: 25px;
+border-radius: 20px;
+ background-color: white;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+box-shadow:0px 4px 11px 0px #0000001F;
+}
+
+
+.orderD2{
+  display: flex;
+    justify-content: space-between;
+    width: 297px
+}
+
+.orderD1{
+justify-content: space-between;
+display: flex;
+flex-direction: row;
+align-items: center;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 39.6px;
+text-align: left;
+
+}
+
+.orderD3{
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: Poppins;
+  font-size: 20px;
+  /* font-weight: 600; */
+  line-height: 39.6px;
+  text-align: left;
+  
+  }
+
+.fooditems{
+  width: 110px;
+height: 105px;
+gap: 0px;
+border-radius: 12px;
+
+/* opacity: 0px; */
+
+}
+
+.buttonsmodal{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2pc;
+    padding: 15px !important;
+}
+.sc-eTNRI.htMciq {
+  margin-left: 6%;
+}

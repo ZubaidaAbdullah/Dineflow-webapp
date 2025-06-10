@@ -1,0 +1,30 @@
+.home{
+    display: flex;
+    height: 100%;
+}
+.sidebarr{
+    flex: 2;
+    height: auto;
+    
+
+}
+
+.sidebarr-expanded {
+    flex: 1; /* Adjust this to match your desired width when ordersContainer is not showing */
+    width: 20%;
+}
+.homeContainer{
+    flex: 10.15;
+    height: 100%;
+}
+.ordersContainer{
+    flex: 3;
+}
+
+.graphs{
+    display: flex;
+    flex-direction: column; 
+    /* padding: 1px; */
+    align-items: center;
+}
+

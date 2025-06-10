@@ -1,0 +1,60 @@
+.dashboard{
+    width: 100%;
+    padding: 10px;
+}
+.featured{
+    border: 0.5px solid lightgrey;
+    border-radius:15px ;
+    padding: 10px;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+}
+.top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title{
+    font-family: Poppins;
+    font-size: 28.54px;
+    font-weight: 700;
+    line-height: 42.81px;
+    text-align: left;
+}
+.charts{
+    padding: 5px;
+}
+.subfeatured{
+    display: flex;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.ratingsSection{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 100%;
+    padding-top: 20px;
+    gap: 20px;
+}
+.mostSellingDish{
+    width: 100%;
+    flex: 1;
+    background-color: transparent;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+    border-radius: 15px;
+}
+.reviewRatings{
+    flex: 2;
+    border-radius: 15px;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+}
+
+.carousalSlider{
+    background-color: white;
+    padding-top: 20px;
+}

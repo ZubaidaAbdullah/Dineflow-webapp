@@ -1,0 +1,44 @@
+.Side-bar.col-lg-2 {
+    background: antiquewhite;
+    height: 100vh;
+    text-align: center;
+}
+
+.Side-bar.col-lg-7 {
+    height: 100vh;
+    background: lightgrey;
+    text-align: center;
+}
+
+.Side-bar.col-lg-3 {
+    background: azure;
+    height: 100vh;
+    text-align: center;
+}
+
+
+.TotalRevenueGraph.col-sm-12 {
+    height: 35vh;
+    background: blueviolet;
+    color: white;
+}
+
+.Cards.col-sm-12 {
+    height: 20vh;
+    background: cadetblue;
+}
+
+.MostSellingDishes.col-sm-4 {
+    height: 126px;
+    background: aliceblue;
+}
+
+.ReviewRatingsGraph.col-sm-8 {
+    background: darkgray;
+}
+
+.TopSellingDishes.col-sm-12 {
+    height: 10vh;
+    background: blueviolet;
+    height: 24vh;
+}

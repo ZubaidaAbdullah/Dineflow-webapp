@@ -1,0 +1,238 @@
+.Menutable-container {
+    width: 100%;
+    overflow: auto;
+    border-radius: 20px;
+    border: transparent;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    height: 715px;
+  }
+  
+  .Menu-details-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+ 
+  .Menu-details-table::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  .Menu-details-table::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .Menu-details-table::-webkit-scrollbar-thumb {
+    background-color: #b5b5b5;
+  }
+  
+  .Menu-details-table::-webkit-scrollbar-thumb:hover {
+    background-color: #b5b5b5;
+  }
+
+  .heading{
+    display: flex;
+    align-items: center;
+  }
+  .MenuOpts{
+    display: inline;
+    float: right;
+  }
+  .Menu119{
+    padding: 1.6rem;
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);;
+  }
+
+  /* orderlist.css */
+.Menu-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f1f1f1;
+  border-radius: 12px;
+  height: 86vh;
+  padding: 20px;
+  margin:20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.mainhead_Menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainhead_Menu h2 {
+  font-family: Poppins;
+  font-size: 28.54px;
+  font-weight: 700;
+  line-height: 42.81px;
+  text-align: left;
+
+}
+
+.mainhead_Menu h4 {
+  font-size: 16px;
+  color: #666666;
+}
+
+.MenuOpts .opts {
+  outline: none;
+  background-color: white;
+  box-shadow: 1px 1px 10px 1px rgba(201, 201, 201, 0.47);
+  width: 170px;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  color: black;
+  padding: 0px !important;
+}
+
+
+.Menu-details-table th,
+.Menu-details-table td {
+  padding: 16px 15px;
+  text-align: center;
+}
+
+.Menu-details-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.Menu-details-table .MenuTableRow:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+.Menu-details-table .MenuTableRow:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.amount-column {
+  padding: 12px 16px;
+}
+.page{
+  color:#2b42c2;
+  font-size: 14px;
+  margin: 9px;
+}
+
+
+/*Slider Button CSS*/
+.switch-container {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switchbutton {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.sliderbutton {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: red;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.sliderbutton:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .sliderbutton {
+  background-color: #4CAF50;
+}
+
+input:focus + .sliderbutton {
+  box-shadow: 0 0 1px #4CAF50;
+}
+
+input:checked + .sliderbutton:before {
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.sliderbutton.roundbutton {
+  border-radius: 34px;
+}
+
+.sliderbutton.roundbutton:before {
+  border-radius: 50%;
+}
+
+/* mansab css */
+
+
+
+.Menu119 {
+  height: 95%;
+}
+
+
+.menudisplayy{
+  width: 100%;
+  height: 100vh;
+}
+
+/* button logic  */
+.availability-indicator {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.available {
+  color: rgb(47, 235, 47);
+}
+
+.unavailable {
+  color: red;
+}
+
+
+.pagination{
+  display: flex;
+  width: 230px;
+  gap: 15px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-left: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.pagination button{
+  background:#DFAF44;
+  color: #fff;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}

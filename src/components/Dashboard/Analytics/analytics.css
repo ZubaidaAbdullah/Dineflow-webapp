@@ -1,0 +1,153 @@
+.analytics{
+    display: flex;
+    height: 100%;
+}
+/* .sidebar{
+    width: 20%;
+} */
+.analiyticsContainer{
+    width: 100%;
+    height: 100%;
+}
+.analyticstitle{
+    font-family: Poppins;
+    font-size: 28.54px;
+    font-weight: 700;
+    line-height: 42.81px;
+    text-align: left
+}
+
+.mainn{
+    padding: 10px;
+    margin: 10px;
+    background-color: #EEEEEE;
+    border-radius: 10px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+.contentleftside, .contentrightside{
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.leftcharthead, .rightcontenthead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.salesSummary{
+    margin-top: 10px;
+}
+.mainSalesStats{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.mainSalesIcons{
+    display: flex;
+    align-items: center;
+}
+.salesChart{
+    margin-top: 10px;
+    height: 400px;
+    width: 100%;
+}
+.topsellingdishes{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.dishesdiv{
+    background-color: #EEEEEE;
+    height: 110px;
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    border-radius: 5px;
+}
+.dishesdivleft{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.dishleftrating{
+    
+}
+
+.dishesdivimg{
+    height: 110px;
+    width: 120px;
+    border-radius: 10px;
+}
+.dishesdivright{
+    display: flex;
+    width: 100%;
+}
+.dishrightdetails{
+    display: flex;
+    width: 100%;
+}
+.dishrightdetailscontent{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+}
+.dishrightdetailstats{
+    width: 55%;
+}
+.dishrightstatcontent{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    flex-direction: row;
+}
+.dishrightgraph{
+    height: 110px;
+    width: 50%;
+}
+.dishrightstatrating{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    align-items: center;
+}
+
+.trendingandmostsellingdiv{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+.trendingorderdiv, .mostsellingdiv{
+    flex: 1;
+}
+
+.analyticspageduration{
+    outline: none;
+    background-color: white;
+    box-shadow: 1px 1px 10px 1px rgba(201, 201, 201, 0.47);
+    /* width: 170px; */
+    height: 40px;
+    font-size: 14px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}

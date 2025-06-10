@@ -1,0 +1,41 @@
+.msdHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    padding: 10px;
+}
+.msdHeadTitle{
+    font-size: 14px !important;
+    margin-bottom: 5px;
+}
+.msdHeadSelect{
+    outline: none;
+    background-color: transparent;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+    width: 145px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 10px;
+    border: none;
+}
+
+.msdContentItem{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+.msdContentHead{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.progressBar {
+    height: 7px; 
+    background-color: #DFAF44;
+    border-radius: 15px;
+    overflow: hidden;
+}

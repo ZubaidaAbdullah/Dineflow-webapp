@@ -1,0 +1,197 @@
+/* *{
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*  */ 
+body{
+    width: 100%;
+    overflow-x: hidden;
+   
+  }
+.Orders {
+    width: 500px;
+    height: 1600px;
+    overflow: auto;
+    border-radius: 8px;
+    background-color: #F6F6F6;
+    float: inline-end;
+}
+
+.mainhead {
+    width: 97%;
+    height: 45px;
+    margin-top: 57px;
+    font-family: Poppins;
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+
+
+
+
+}
+
+.RightOrderOpts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Rightopts {
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    padding-top: 33px;
+    cursor: pointer;
+    color: #AAAAAA;
+    font-weight: 400;
+    padding-bottom: 13px;
+}
+
+.input::placeholder {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 12px;
+    padding-left: 53px;
+    border: none;
+    outline: none;
+
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+.searchbar {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.tableno {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 14px;
+    padding-left: 15px;
+
+}
+
+.ordersData {
+    width: 95%;
+    margin-top: 50px;
+    margin-left: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+
+
+}
+
+.restorders {
+    width: 100%;
+    height: max-content;
+    background: #FCFCFC;
+    margin-top: 20px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+}
+
+.orderid {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 15px;
+    color: #999999;
+
+
+}
+
+.bill {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 15px;
+    color: #1C4656;
+    ;
+}
+
+.grp1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.OrderItems {
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+}
+
+
+.item-details {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 13px; 
+    height: 40px;
+    border-radius: 5;
+    border: 1;
+    background: #EEEEEE;
+    margin-bottom: 5px;
+    align-items: center;
+    margin-right: 5px;
+
+
+
+}
+
+ul {
+    list-style: none;
+}
+
+.orderitemsimg {
+    width: 39px;
+    height: 39px;
+
+}
+
+.orderitemimage {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.priceandquantity {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.selectedOption {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #1C4656;
+}

@@ -1,0 +1,118 @@
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.msctitle{
+    font-family: Poppins;
+    font-size: 28.54px;
+    font-weight: 700;
+    line-height: 42.81px;
+    text-align: left;
+}
+
+.content{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+.contentleftside, .contentrightside{
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.leftcharthead, .rightcontenthead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.salesSummary{
+    margin-top: 10px;
+}
+.mainSalesStats{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.mainSalesIcons{
+    display: flex;
+    align-items: center;
+}
+.salesChart{
+    margin-top: 10px;
+    height: 400px;
+    width: 100%;
+}
+.topsellingdishes{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.dishesdiv{
+    background-color: #EEEEEE;
+    height: 110px;
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    border-radius: 5px;
+}
+.dishesdivleft{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.dishleftrating{
+}
+.firstDishLeftRating {
+    padding: 4px;
+}
+
+.dishesdivimg{
+    padding: 5px;
+    height: 105px;
+    width: 120px;
+    border-radius: 15px;
+}
+.dishesdivright{
+    display: flex;
+    width: 100%;
+}
+.dishrightdetails{
+    display: flex;
+    width: 100%;
+}
+.msdishrightdetailscontent{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    align-items: center;
+}
+.dishrightdetailstats{
+    width: 55%;
+}
+.dishrightstatcontent{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    flex-direction: row;
+}
+.dishrightgraph{
+    height: 110px;
+    width: 50%;
+}
+.msdishrightstatrating{
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+    align-items: center;
+}
